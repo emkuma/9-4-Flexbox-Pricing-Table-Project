@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Sono', sans-serif;
+}  
+
+.pricing-container {
+    max-width: 75%;
+    display: flex;
+    gap: 2.5em;
+    margin: 200px auto;
+    justify-content: center;
+}    
+
+.pricing-plan {
+    max-width: 18%;
+    min-width: 0;
+    border: 1px solid black;
+    flex: 1 1 0;
+    text-align: center;
+    padding: 1em;
+}  
+
+.plan-title {
+
+}
+
+.plan-price {
+
+}
+
+.plan-features {
+    list-style: none;
+}
+    
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 1250px) {
+      
+}    
