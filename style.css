@@ -40,9 +40,23 @@ body {
 
 .plan-features {
     list-style: none;
+    font-weight: 300;
+}
+
+.plan-button {
+    border: none;
+    border-radius: 10%;
+    background-color: #fd6729;
+    color: white;
+    padding: .8em 1em;
 }
     
 /* Hint: What can you do with a media query and flexbox? */
 @media (max-width: 1250px) {
-      
+      .pricing-container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 }    
