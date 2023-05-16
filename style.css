@@ -59,4 +59,8 @@ body {
         flex-direction: column;
         align-items: center;
       }
+    
+     .pricing-plan {
+         max-width: 33%;
+         min-width: 0;
 }    
